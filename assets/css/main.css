@@ -2465,6 +2465,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		#firebase{
+			
+			width: 100%;
+		}
+
 /* List */
 
 	ol {
@@ -3021,10 +3026,12 @@ input, select, textarea {
 				border-radius: 5px 5px 0 0;
 				display: block;
 				margin-bottom: 1.75em;
-				margin-left: -1.75em;
+				/* margin-left: -1.75em; */
+				margin-left: auto;
+  				margin-right: auto;
 				margin-top: -1.75em;
 				position: relative;
-				width: calc(100% + 3.5em);
+				width: calc(50% + 3.5em);
 			}
 
 				.features article .image img {
